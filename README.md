@@ -10,7 +10,7 @@ https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/quickstart
 
 
 #### 进入本地配好环境（已安装好PaddlePaddle和PaddleOCR whl包）
-运行```bash conda activate paddle_env```
+运行```conda activate paddle_env```
 
 
 
