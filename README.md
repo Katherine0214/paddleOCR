@@ -19,8 +19,9 @@ https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/quickstart
 
 
 ### 二、模型推理
-https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/inference_ppocr.md
-运行时记得添加```--use_gpu false```
+官网：https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/inference_ppocr.md
+
+本地运行时记得添加```--use_gpu false```
 
 ### 📚 1、文本检测
 ```python tools/infer/predict_det.py --image_dir=待检测图片 --det_model_dir=加载的推理模型```
