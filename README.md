@@ -14,7 +14,7 @@ https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/quickstart
 
 
 
-### 一、目录文件说明
+一、目录文件说明
 ---
 - ```doc文件夹```：用于存放测试图片；
 - ```inference文件夹```：用于存放训练好的推理模型（需网上下载）；
@@ -26,7 +26,7 @@ https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/quickstart
 
 
 
-### 二、模型推理
+二、模型推理
 ---
 官网：https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/inference_ppocr.md
 
@@ -87,7 +87,7 @@ https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_ch/quickstart
 
 
 
-### 👀 三、行程码识别实例
+👀 三、行程码识别实例
 ---
 ```bash
 python tools/infer/predict_system.py --image_dir="./doc/imgs/1.jpg" --det_model_dir="./inference/ch_PP-OCRv3_det_infer/" --cls_model_dir="./inference/ch_ppocr_mobile_v2.0_cls_infer/" --rec_model_dir="./inference/ch_PP-OCRv3_rec_infer/" --use_angle_cls=true --use_gpu=False
